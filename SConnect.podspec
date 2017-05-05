@@ -38,5 +38,5 @@ s.dependency 'SwiftyJSON'
 s.source_files = "SConnect/**/*.{swift}"
 
 # 9
-s.resources = "SConnect/**/*.{png,jpeg,jpg,storyboard,xib}"
+#s.resources = "SConnect/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
