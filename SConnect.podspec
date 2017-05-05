@@ -31,7 +31,7 @@ s.source = { :git => "https://github.com/kansujiya/SConnect.git", :tag => "#{s.v
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire''
+s.dependency 'Alamofire'
 s.dependency 'SwiftyJSON'
 
 # 8
