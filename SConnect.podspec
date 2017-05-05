@@ -6,37 +6,40 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-# 1
-s.platform = :ios
-s.ios.deployment_target = '8.0'
-s.name = "SConnect"
-s.summary = "Connect Layer"
-s.requires_arc = true
+Pod::Spec.new do |s|
 
-# 2
-s.version = "0.1.0"
+    # 1
+    s.platform = :ios
+    s.ios.deployment_target = '8.0'
+    s.name = "SConnect"
+    s.summary = "Connect Layer"
+    s.requires_arc = true
 
-# 3
-s.license = { :type => "MIT", :file => "LICENSE" }
+    # 2
+    s.version = "0.1.0"
 
-# 4 - Replace with your name and e-mail address
-s.author = { "Kansujiya" => "sureshkansujiya@gmail.com" }
+    # 3
+    s.license = { :type => "MIT", :file => "LICENSE" }
 
-# 5 - Replace this URL with your own Github page's URL (from the address bar)
-s.homepage = "https://github.com/kansujiya"
+    # 4 - Replace with your name and e-mail address
+    s.author = { "Kansujiya" => "sureshkansujiya@gmail.com" }
+
+    # 5 - Replace this URL with your own Github page's URL (from the address bar)
+    s.homepage = "https://github.com/kansujiya"
 
 
-# 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/kansujiya/SConnect.git", :tag => "#{s.version}"}
+    # 6 - Replace this URL with your own Git URL from "Quick Setup"
+    s.source = { :git => "https://github.com/kansujiya/SConnect.git", :tag => "#{s.version}"}
 
-# 7
-s.framework = "UIKit"
-s.dependency 'Alamofire'
-s.dependency 'SwiftyJSON'
+    # 7
+    s.framework = "UIKit"
+    s.dependency 'Alamofire'
+    s.dependency 'SwiftyJSON'
 
-# 8
-s.source_files = "SConnect/**/*.{swift}"
+    # 8
+    s.source_files = "SConnect/**/*.{swift}"
 
-# 9
-#s.resources = "SConnect/**/*.{png,jpeg,jpg,storyboard,xib}"
+    # 9
+    #s.resources = "SConnect/**/*.{png,jpeg,jpg,storyboard,xib}"
+
 end
