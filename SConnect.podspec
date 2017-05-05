@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
     # 7
     s.framework = "UIKit"
-    s.dependency 'Alamofire'
+    s.dependency 'Alamofire', '~> 4.4'
     s.dependency 'SwiftyJSON'
 
     # 8
