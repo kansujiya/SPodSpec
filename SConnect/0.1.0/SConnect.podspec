@@ -32,9 +32,9 @@ Pod::Spec.new do |s|
     s.source = { :git => "https://github.com/kansujiya/SConnect.git", :tag => "#{s.version}"}
 
     # 7
-    s.framework = "UIKit"
-    s.dependency 'Alamofire', '~> 4.4'
-    s.dependency 'SwiftyJSON'
+    #s.framework = "UIKit"
+    #s.dependency 'Alamofire', '~> 4.4'
+    #s.dependency 'SwiftyJSON'
 
     # 8
     s.source_files = "SConnect/**/*.{swift}"
